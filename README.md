@@ -1,0 +1,2 @@
+# MailSender
+Sampled Email sender

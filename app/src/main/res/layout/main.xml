@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etBody"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:text="@string/feedback_text"
+            android:layout_height="240dp"
+            android:gravity="top"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:text="@string/feedback_email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btEmailSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_send" />
+
+    </LinearLayout>
+
+</ScrollView>
